@@ -1,4 +1,5 @@
 # custom ignore
+*data*
 *.gz
 *.gz2
 *.txt
