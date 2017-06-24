@@ -1,4 +1,11 @@
 # coding=utf-8
+
+# 对评论进行分类
+# 判断评论是正面还是负面的
+
+# 1. 处理的是字符串,首先把字符串转化为向量/数字表示,可以把单词映射为数字id
+# 2. 每行评论字数不同,神经网络需要一直的输入(有些神经网络不用一致输入),这个可用词汇表解决
+
 import numpy as np
 import tensorflow as tf
 import random
